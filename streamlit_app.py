@@ -1,4 +1,7 @@
 # streamlit_app.py
-# This is a copy of your main Streamlit app for deployment compatibility.
+# Entry point for Streamlit deployment
 
-from app import *
+from app import main
+
+if __name__ == "__main__":
+    main()
